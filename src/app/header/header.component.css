@@ -1,0 +1,36 @@
+.listtag{
+    text-align: right;
+}
+.listtag ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+.listtag ul li a{
+    font-size: 20px;
+    text-decoration:none;
+    color: black;
+}
+.contents img{
+    margin: 20px;
+    float: left;
+}
+.contents{
+    height: 13vh;
+    background: aqua;
+}
+span{
+    color:black;
+    margin: 20px;
+    font-size: 25px;
+    display: none;
+    cursor: pointer;
+}
+@media only screen and (max-width:800px) {
+    span{
+        display: block;
+    }
+    .listtag ul li {
+        display: block;
+    }
+}
